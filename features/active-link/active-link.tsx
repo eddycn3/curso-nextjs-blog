@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 type ActiveLinkProps = {
     children: React.ReactNode;
 } & LinkProps
-export const ActiveLink = ({ children, href, ...rest } : ActiveLinkProps) => {
+export const ActiveLink = ({ children, href, ...rest }: ActiveLinkProps) => {
     const pathname = usePathname();
     const isCurrentPath = pathname === href || pathname === rest.as;
 
@@ -17,7 +17,7 @@ export const ActiveLink = ({ children, href, ...rest } : ActiveLinkProps) => {
             isCurrentPath ? 'text-blue-200' : 'text-gray-100'
 
         )}
-        {...rest}
+            {...rest}
         >{children}</Link>
     )
 }

@@ -3,7 +3,7 @@ import { Logo } from "@/shared/logo/logo"
 
 export const Footer = () => {
     return (
-        <footer className="bg-muted">
+        <footer className="bg-gray-700">
             <div className="max-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
                 <div className="flex justify-between md:flex-row gap-8 py-8">
                    <Logo/>
