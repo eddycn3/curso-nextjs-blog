@@ -1,6 +1,6 @@
 import { FeatureSection } from "@/features/feature-section/feature-section";
 import { HeroSection } from "@/features/hero-section";
-import Image from "next/image";
+import { SupportSection } from "@/features/support-section";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <article className="flex flex-col">
         <HeroSection/>
         <FeatureSection/>
+        <SupportSection/>
       </article>
     </>
   );
