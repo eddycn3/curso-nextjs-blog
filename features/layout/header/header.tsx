@@ -1,9 +1,9 @@
 import { Button } from "@/shared/ui/button"
 import Link from "next/link"
-import { ActiveLink } from "../active-link/active-link"
+import { ActiveLink } from "../../active-link/active-link"
 import { Logo } from "@/shared/logo/logo"
 
-export const Header = () =>{
+export const Header = () => {
     return (
         <header className="fixed top-0 z-50 w-full border-b border-white/10 
 bg-gray-800/95 backdrop-blur">
@@ -11,7 +11,7 @@ bg-gray-800/95 backdrop-blur">
             lg:px-80">
                 <div className="flex h-16 items-center
                 justify-between">
-                    <Logo/>
+                    <Logo />
 
                     <nav className="flex items-center gap-6">
                         <ActiveLink href="/">Início</ActiveLink>
